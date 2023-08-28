@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template_2</title>
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <link rel="stylesheet" href="../css/grid.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="loader"></div>
+
+<header class="header">
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <a href="/">
+          <img src="../img/logo.png" alt="">
+        </a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="#who-we-are">Хто ми</a>
+          </li>
+          <li>
+            <a href="#our-values">Наші цінності</a>
+          </li>
+          <li>
+            <a href="#vacancies">Вакансії</a>
+          </li>
+          <li>
+            <a href="#contact">Контакти</a>
+          </li>
+        </ul>
+        <ul class="language">
+          <li>
+            <a href="/template_2">
+              <img src="../img/gbr-flag.png" alt="">
+            </a>
+          </li>
+          <li class="active">
+            <a href="/template_2/ua">
+              <img src="../img/ukr-flag.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="section-1 section-padding">
+  <div class="container">
+    <div class="content">
+      <div class="text-wrapper">
+        <h1 class="blocks-margin">багатопрофільна компанія зосереджена на <span class="orange-color">White Label продуктах</span></h1>
+        <p class="blocks-margin">Технічні рішення в режимі реального часу, що відповідають вашим потребам у запуску. Завдяки нашим унікальним рішенням ми допомагаємо брендам рости та розширюватися.</p>
+        <button class="button blueviolet open-resume-popup">Надіслати резюме</button>
+        <a href="#who-we-are" class="arrow scroll-down">
+          <svg data-bbox="20 59.5 160 81.001" viewBox="0 0 200 200" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape">
+            <g>
+              <path d="M177.687 128.054L105.35 61.402a7.205 7.205 0 0 0-5.35-1.886 7.198 7.198 0 0 0-5.349 1.886l-72.338 66.652a7.165 7.165 0 0 0-.407 10.138 7.172 7.172 0 0 0 5.283 2.309c1.743 0 3.49-.629 4.872-1.902L100 75.999l67.939 62.598a7.197 7.197 0 0 0 10.155-.406 7.163 7.163 0 0 0-.407-10.137z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="img-wrapper">
+        <img src="../img/img-1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="popup" id="resumePopup">
+    <div class="backdrop">
+      <div class="close-button">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="content">
+      <h2>Надіслати резюме</h2>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-wrapper half-width">
+            <label for="resumeName">Ім'я</label>
+            <input type="text" id="resumeName" name="resumeName" placeholder="Lucy">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="resumeLastName">Прізвище</label>
+            <input type="text" id="resumeLastName" name="resumeLastName" placeholder="Jefferson">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="resumeEmail">Електронна пошта</label>
+            <input type="email" id="resumeEmail" name="resumeEmail" placeholder="exemple@gmail.com">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="resumePosition">Позиція</label>
+            <input type="text" id="resumePosition" name="resumePosition" placeholder="Full Stack Developer">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper file-input">
+            <input type="file" id="resumeFile" name="resumeFile" accept=".pdf" hidden>
+            <div class="file-button arrow blueviolet">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 98.371 98.371" xml:space="preserve">
+                <path d="M26.834,98.371c-6.574,0-12.727-2.789-17.17-7.232C1.055,82.53-1.345,67.5,10.725,55.43
+                  c7.072-7.072,35.4-35.398,49.541-49.542c5.02-5.02,11.41-6.958,17.527-5.319C83.801,2.178,88.725,7.1,90.334,13.107
+                  c1.639,6.121-0.299,12.509-5.318,17.529L37.639,78.014c-2.705,2.705-5.76,4.306-8.832,4.631c-3.041,0.32-5.945-0.659-7.977-2.69
+                  c-3.686-3.685-4.211-10.621,1.916-16.745l33.278-33.28c1.367-1.367,3.582-1.367,4.949,0s1.367,3.583,0,4.949L27.696,68.158
+                  c-2.877,2.876-3.141,5.622-1.916,6.847c0.537,0.537,1.352,0.779,2.291,0.678c1.441-0.152,3.082-1.083,4.619-2.62l47.377-47.376
+                  c3.25-3.25,4.496-7.074,3.506-10.766c-0.975-3.637-3.953-6.615-7.59-7.59c-3.691-0.99-7.516,0.256-10.768,3.507
+                  c-14.14,14.141-42.469,42.471-49.541,49.541c-9.23,9.23-7.02,19.85-1.061,25.809s16.578,8.171,25.811-1.06l49.541-49.542
+                  c1.367-1.367,3.582-1.367,4.949,0s1.367,3.583,0,4.949L45.373,90.078C39.534,95.919,32.998,98.371,26.834,98.371z"/>
+              </svg>
+            </div>
+            <div class="file-text">
+              Прикріпіть своє резюме
+            </div>
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <button type="submit" class="button">Надіслати</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-2 section-padding" id="who-we-are">
+  <div class="container">
+    <div class="content">
+      <div class="img-wrapper">
+        <img src="../img/img-2.jpg" alt="">
+      </div>
+      <div class="text-wrapper">
+        <h2>хто ми</h2>
+        <p>Ми є прогресивною ІТ-компанією, яка працює над створенням глобального технологічного бізнесу в різних вертикалях.</p>
+        <p>Ми розробили потужну, гнучку та легко масштабуючу платформу, яка відповідає на будь-який унікальний запит; і ми продовжуємо працювати над його вдосконаленням.</p>
+      </div>
+      <div class="text-wrapper">
+        <p>Головний офіс розташований у Франції зі штаб-квартирою в Україні (Київ) та Ізраїлі (Тель-Авів).</p>
+        <p>Компанія почала розвиватися спочатку як стартап, але дух, який зібрався в команді з самого початку, надихнув засновників на легкість, яку вони вирішили підтримувати та розвивати дотепер, що привело маленький стартап до успішної, досвідченої компанії.</p>
+      </div>
+      <div class="table-wrapper">
+        <div class="table-item">
+          <div class="table-title">
+            <h4>Наші основні інструменти, з якими ми працюємо</h4>
+          </div>
+          <div class="table-description">
+            <span>
+              <img src="../img/icon-1.png" alt="">
+              Kubernetes
+            </span>
+            <span>
+              <img src="../img/icon-2.png" alt="">
+              PHP8
+            </span>
+            <span>
+              <img src="../img/icon-3.png" alt="">
+              Postgresql
+            </span>
+            <span>
+              <img src="../img/icon-4.png" alt="">
+              ISTIO
+            </span>
+            <span>
+              <img src="../img/icon-5.png" alt="">
+              Symfony 6
+            </span>
+            <span>
+              <img src="../img/icon-6.png" alt="">
+              AWS
+            </span>
+            <span>
+              <img src="../img/icon-7.png" alt="">
+              Elasticsearch
+            </span>
+          </div>
+        </div>
+        <div class="table-item">
+          <div class="table-title">
+            <h4>Над чим ми зазвичай працюємо</h4>
+          </div>
+          <div class="table-description">
+            <span>
+              <img src="../img/icon-8.png" alt="">
+              Мікросервіси
+            </span>
+            <span>
+              <img src="../img/icon-9.png" alt="">
+              Платіжна платформа
+            </span>
+            <span>
+              <img src="../img/icon-10.png" alt="">
+              CRM Системи
+            </span>
+            <span>
+              <img src="../img/icon-11.png" alt="">
+              Постачальники послуг
+            </span>
+            <span>
+              <img src="../img/icon-12.png" alt="">
+              Платіжні системи
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-3 section-padding" id="counters">
+  <div class="container">
+    <div class="content">
+      <div class="counter-item">
+        <div class="number-wrapper orange-color">
+          +<span data-number="150">0</span>
+        </div>
+        <div class="text-wrapper">
+          <p>Реалізували успішні та великі бізнес-проекти</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper">
+          <span data-number="8">0</span>
+        </div>
+        <div class="text-wrapper">
+          <p>Різні технології в розробці, які ми використовуємо</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper">
+          <span data-number="70">0</span>+
+        </div>
+        <div class="text-wrapper">
+          <p>Працівники з усіх відділів</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper">
+          <span data-number="12">0</span>
+        </div>
+        <div class="text-wrapper">
+          <p>Різні інтеграції з постачальниками послуг</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper orange-color">
+          <span data-number="20">0</span>+
+        </div>
+        <div class="text-wrapper">
+          <p>Країни, які наша команда вже відвідала під час популярних конференцій</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-4 section-padding" id="our-values">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="blocks-margin">наші цінності</h2>
+    </div>
+    <div class="content">
+      <div class="content-list">
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="../img/icon-13.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Інновації</h4>
+            <p>Ми впроваджуємо нові продукти, послуги та технології та вдосконалюємо методи нашої роботи</p>
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="../img/icon-14.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Мотивація</h4>
+            <p>Ми завжди дбаємо про те, щоб наші співробітники мали регулярні пільги та дружні умови праці</p>
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="../img/icon-15.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Співпраця</h4>
+            <p>Ми працюємо разом у нашій команді та в різних частинах організації та в різних місцях</p>
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="../img/icon-16.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Продуктивність</h4>
+            <p>Ми винагороджуємо ефективні результати через винагороду та неформальне визнання</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-5 section-padding" id="vacancies">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="blocks-margin">наші останні вакансії</h2>
+    </div>
+    <div class="content">
+      <div class="content-list">
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Дистанційно</span>
+          </div>
+          <h3 class="vacancy-title">PHP Developer</h3>
+          <div class="vacancy-description">
+            <p>Обов'язки:</p>
+            <ul>
+              <li>Розробка/підтримка внутрішніх функцій</li>
+              <li>Написання мікросервісів (SOLID/DDD/Symfony 5)</li>
+              <li>Нова функціональність у проекті (Symfony 4,5)</li>
+              <li>Різноманітність завдань від кількох годин до тижня в плані виконання</li>
+              <li>Виправлення помилок</li>
+            </ul>
+            <a class="open-resume-popup">
+              Надіслати резюме
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Дистанційно</span>
+          </div>
+          <h3 class="vacancy-title">React Native Developer</h3>
+          <div class="vacancy-description">
+            <p>Обов'язки:</p>
+            <ul>
+              <li>Наявний досвід створення проектів за допомогою React Native</li>
+              <li>Знання основних засобів мобільної розробки</li>
+              <li>Розуміння REST APIs</li>
+              <li>Досвід випуску програм у App Store / PlayStore</li>
+            </ul>
+            <a class="open-resume-popup">
+              Надіслати резюме
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Дистанційно</span>
+          </div>
+          <h3 class="vacancy-title">Affiliate Manager</h3>
+          <div class="vacancy-description">
+            <p>Обов'язки:</p>
+            <ul>
+              <li>Постійний пошук нових партнерів для залучення трафіку до проекту</li>
+              <li>Управління відносинами з існуючими афілійованими партнерами</li>
+              <li>Розвивиток партнерських відносини та збільшення вигідних угод</li>
+              <li>Слідкування за транспортним потоком, щоб виявити можливе шахрайство</li>
+            </ul>
+            <a class="open-resume-popup">
+              Надіслати резюме
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Дистанційно</span>
+          </div>
+          <h3 class="vacancy-title">DevOps</h3>
+          <div class="vacancy-description">
+            <p>Обов'язки:</p>
+            <ul>
+              <li>Розробити та впровадити збірку, розгортання та керування конфігурацією</li>
+              <li>Створюйте та тестуйте засоби автоматизації для надання інфраструктури</li>
+              <li>Відстежуйте показники та розробляйте шляхи покращення</li>
+              <li>Документуйте та проектуйте різні процеси й оновлення</li>
+              <li>Покращити розвиток інфраструктури та розробку додатків</li>
+            </ul>
+            <a class="open-resume-popup">
+              Надіслати резюме
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="text-center blocks-margin">Якщо ви не знайшли відповідну вакансію, зв’яжіться з нами.</p>
+      <div class="button-wrapper">
+        <a href="#contact" class="arrow scroll-down">
+          <svg data-bbox="20 59.5 160 81.001" viewBox="0 0 200 200" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape">
+            <g>
+              <path d="M177.687 128.054L105.35 61.402a7.205 7.205 0 0 0-5.35-1.886 7.198 7.198 0 0 0-5.349 1.886l-72.338 66.652a7.165 7.165 0 0 0-.407 10.138 7.172 7.172 0 0 0 5.283 2.309c1.743 0 3.49-.629 4.872-1.902L100 75.999l67.939 62.598a7.197 7.197 0 0 0 10.155-.406 7.163 7.163 0 0 0-.407-10.137z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-6 section-padding" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="section-margin"><span class="orange-color">давайте працювати разом</span><br /> і робити щось велике</h2>
+    </div>
+    <div class="content">
+      <div class="img-wrapper"></div>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-wrapper half-width">
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" name="name" placeholder="Lucy">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="lastname">Прізвище</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Jefferson">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="email">Електронна пошта</label>
+            <input type="email" id="email" name="email" placeholder="exemple@gmail.com">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="city">Місто</label>
+            <input type="text" id="city" name="city" placeholder="Tel-aviv">
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <div class="input-wrapper">
+            <label for="message">Повідомлення</label>
+            <textarea id="message" name="message" placeholder="Введіть своє повідомлення тут"></textarea>
+            <span class="error-text">Це поле є обов'язковим</span>
+          </div>
+          <button type="submit" class="button">Надіслати</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content">
+      <div class="content-item">
+        <div class="logo">
+          <a href="/">
+            <img src="../img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="text-wrapper">
+          <p>Багатопрофільна компанія, що випускає White Label продукти.</p>
+          <p>Наші офіси розташовані в центрі столиць з надихаючим панорамним краєвидом.</p>
+        </div>
+      </div>
+      <div class="content-item">
+        <h2>Міста та офіси</h2>
+        <h4>Київ</h4>
+        <p>5 хвилин ходьби від станції метро Кловська</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="scroll-to-top arrow">
+  <svg data-bbox="20 59.5 160 81.001" viewBox="0 0 200 200" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape">
+    <g>
+      <path d="M177.687 128.054L105.35 61.402a7.205 7.205 0 0 0-5.35-1.886 7.198 7.198 0 0 0-5.349 1.886l-72.338 66.652a7.165 7.165 0 0 0-.407 10.138 7.172 7.172 0 0 0 5.283 2.309c1.743 0 3.49-.629 4.872-1.902L100 75.999l67.939 62.598a7.197 7.197 0 0 0 10.155-.406 7.163 7.163 0 0 0-.407-10.137z"></path>
+    </g>
+  </svg>
+</div>
+
+<script src="../js/script.js"></script>
+
+</body>
+</html>

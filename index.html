@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Template_2</title>
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="loader"></div>
+
+<header class="header">
+  <div class="container">
+    <div class="content">
+      <div class="logo">
+        <a href="/">
+          <img src="img/logo.png" alt="">
+        </a>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a href="#who-we-are">Who we are</a>
+          </li>
+          <li>
+            <a href="#our-values">Our Values</a>
+          </li>
+          <li>
+            <a href="#vacancies">Vacancies</a>
+          </li>
+          <li>
+            <a href="#contact">Contacts</a>
+          </li>
+        </ul>
+        <ul class="language">
+          <li class="active">
+            <a href="/template_2">
+              <img src="img/gbr-flag.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a href="/template_2/ua">
+              <img src="img/ukr-flag.png" alt="">
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<section class="section-1 section-padding">
+  <div class="container">
+    <div class="content">
+      <div class="text-wrapper">
+        <h1 class="blocks-margin">multiskilled company focused on <span class="orange-color">white label products</span></h1>
+        <p class="blocks-margin">Real-time tech solutions tailored to your startup needs. We help brands to grow up and expand with our unique solutions.</p>
+        <button class="button blueviolet open-resume-popup">APPLY NOW</button>
+        <a href="#who-we-are" class="arrow scroll-down">
+          <svg data-bbox="20 59.5 160 81.001" viewBox="0 0 200 200" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape">
+            <g>
+              <path d="M177.687 128.054L105.35 61.402a7.205 7.205 0 0 0-5.35-1.886 7.198 7.198 0 0 0-5.349 1.886l-72.338 66.652a7.165 7.165 0 0 0-.407 10.138 7.172 7.172 0 0 0 5.283 2.309c1.743 0 3.49-.629 4.872-1.902L100 75.999l67.939 62.598a7.197 7.197 0 0 0 10.155-.406 7.163 7.163 0 0 0-.407-10.137z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+      <div class="img-wrapper">
+        <img src="img/img-1.jpg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="popup" id="resumePopup">
+    <div class="backdrop">
+      <div class="close-button">
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="content">
+      <h2>Send us your CVV</h2>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-wrapper half-width">
+            <label for="resumeName">First name</label>
+            <input type="text" id="resumeName" name="resumeName" placeholder="Lucy">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="resumeLastName">Last name</label>
+            <input type="text" id="resumeLastName" name="resumeLastName" placeholder="Jefferson">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="resumeEmail">E-mail adress</label>
+            <input type="email" id="resumeEmail" name="resumeEmail" placeholder="exemple@gmail.com">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="resumePosition">Position</label>
+            <input type="text" id="resumePosition" name="resumePosition" placeholder="Full Stack Developer">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper file-input">
+            <input type="file" id="resumeFile" name="resumeFile" accept=".pdf,.txt,.doc,.docx" hidden>
+            <div class="file-button arrow blueviolet">
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 98.371 98.371" xml:space="preserve">
+                <path d="M26.834,98.371c-6.574,0-12.727-2.789-17.17-7.232C1.055,82.53-1.345,67.5,10.725,55.43
+                  c7.072-7.072,35.4-35.398,49.541-49.542c5.02-5.02,11.41-6.958,17.527-5.319C83.801,2.178,88.725,7.1,90.334,13.107
+                  c1.639,6.121-0.299,12.509-5.318,17.529L37.639,78.014c-2.705,2.705-5.76,4.306-8.832,4.631c-3.041,0.32-5.945-0.659-7.977-2.69
+                  c-3.686-3.685-4.211-10.621,1.916-16.745l33.278-33.28c1.367-1.367,3.582-1.367,4.949,0s1.367,3.583,0,4.949L27.696,68.158
+                  c-2.877,2.876-3.141,5.622-1.916,6.847c0.537,0.537,1.352,0.779,2.291,0.678c1.441-0.152,3.082-1.083,4.619-2.62l47.377-47.376
+                  c3.25-3.25,4.496-7.074,3.506-10.766c-0.975-3.637-3.953-6.615-7.59-7.59c-3.691-0.99-7.516,0.256-10.768,3.507
+                  c-14.14,14.141-42.469,42.471-49.541,49.541c-9.23,9.23-7.02,19.85-1.061,25.809s16.578,8.171,25.811-1.06l49.541-49.542
+                  c1.367-1.367,3.582-1.367,4.949,0s1.367,3.583,0,4.949L45.373,90.078C39.534,95.919,32.998,98.371,26.834,98.371z"/>
+              </svg>
+            </div>
+            <div class="file-text">
+              Attach you CVV
+            </div>
+            <span class="error-text">This field is required</span>
+          </div>
+          <button type="submit" class="button">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-2 section-padding" id="who-we-are">
+  <div class="container">
+    <div class="content">
+      <div class="img-wrapper">
+        <img src="img/img-2.jpg" alt="">
+      </div>
+      <div class="text-wrapper">
+        <h2>who we are</h2>
+        <p>We are a progressive IT company that works on building global Tech businesses in different verticals.</p>
+        <p>We have developed a powerful, flexible and easily-scalable platform responding to any unique request; and we keep working on its improvement.</p>
+      </div>
+      <div class="text-wrapper">
+        <p>The head office is based in France with headquarters in Ukraine (Kyiv) and Israel (Tel-aviv).</p>
+        <p>The company began to develop first as a startup, but the spirit that gathered in the team from the very beginning inspired the founders with the ease that they decided to maintain and develop until now, which lead the small startup to a successfully, experienced company.</p>
+      </div>
+      <div class="table-wrapper">
+        <div class="table-item">
+          <div class="table-title">
+            <h4>Our main tools we work with</h4>
+          </div>
+          <div class="table-description">
+            <span>
+              <img src="img/icon-1.png" alt="">
+              Kubernetes
+            </span>
+            <span>
+              <img src="img/icon-2.png" alt="">
+              PHP8
+            </span>
+            <span>
+              <img src="img/icon-3.png" alt="">
+              Postgresql
+            </span>
+            <span>
+              <img src="img/icon-4.png" alt="">
+              ISTIO
+            </span>
+            <span>
+              <img src="img/icon-5.png" alt="">
+              Symfony 6
+            </span>
+            <span>
+              <img src="img/icon-6.png" alt="">
+              AWS
+            </span>
+            <span>
+              <img src="img/icon-7.png" alt="">
+              Elasticsearch
+            </span>
+          </div>
+        </div>
+        <div class="table-item">
+          <div class="table-title">
+            <h4>What we usually work on</h4>
+          </div>
+          <div class="table-description">
+            <span>
+              <img src="img/icon-8.png" alt="">
+              Microservices
+            </span>
+            <span>
+              <img src="img/icon-9.png" alt="">
+              Billing Platform
+            </span>
+            <span>
+              <img src="img/icon-10.png" alt="">
+              CRM Systems
+            </span>
+            <span>
+              <img src="img/icon-11.png" alt="">
+              Service Providers
+            </span>
+            <span>
+              <img src="img/icon-12.png" alt="">
+              Payment Systems
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-3 section-padding" id="counters">
+  <div class="container">
+    <div class="content">
+      <div class="counter-item">
+        <div class="number-wrapper orange-color">
+          +<span data-number="150">0</span>
+        </div>
+        <div class="text-wrapper">
+          <p>Implemented successfully and large business projects</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper">
+          <span data-number="8">0</span>
+        </div>
+        <div class="text-wrapper">
+          <p>Different technologies in development that we use</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper">
+          <span data-number="70">0</span>+
+        </div>
+        <div class="text-wrapper">
+          <p>Employees working from all departments</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper">
+          <span data-number="12">0</span>
+        </div>
+        <div class="text-wrapper">
+          <p>Different integrations with service providers</p>
+        </div>
+      </div>
+      <div class="counter-item">
+        <div class="number-wrapper orange-color">
+          <span data-number="20">0</span>+
+        </div>
+        <div class="text-wrapper">
+          <p>Сountries our team have already visited during popular comference</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-4 section-padding" id="our-values">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="blocks-margin">our values</h2>
+    </div>
+    <div class="content">
+      <div class="content-list">
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="img/icon-13.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Innovation</h4>
+            <p>We pioneer novel products, services, and technologies, and improve ways of our working</p>
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="img/icon-14.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Motivation</h4>
+            <p>We always make sure that our employees have regular benefits and friendly working conditions</p>
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="img/icon-15.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Collaboration</h4>
+            <p>We work together within our team and across different parts of the organization and locations</p>
+          </div>
+        </div>
+        <div class="content-item">
+          <div class="img-wrapper">
+            <img src="img/icon-16.png" alt="">
+          </div>
+          <div class="text-wrapper">
+            <h4>Performance</h4>
+            <p>We reward effective results through compensation and informal recognition</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-5 section-padding" id="vacancies">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="blocks-margin">our latest vacancies</h2>
+    </div>
+    <div class="content">
+      <div class="content-list">
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Remote</span>
+          </div>
+          <h3 class="vacancy-title">PHP Developer</h3>
+          <div class="vacancy-description">
+            <p>Responsibilities:</p>
+            <ul>
+              <li>Develop/support back-end features</li>
+              <li>Writing microservices (SOLID/DDD/Symfony 5)</li>
+              <li>New functionality on the project (Symfony 4,5)</li>
+              <li>A variety of tasks from several hours to a week in terms of implementation</li>
+              <li>Bugfix</li>
+            </ul>
+            <a class="open-resume-popup">
+              Apply now
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Remote</span>
+          </div>
+          <h3 class="vacancy-title">React Native Developer</h3>
+          <div class="vacancy-description">
+            <p>Responsibilities:</p>
+            <ul>
+              <li>Demonstrable experience in building projects using React Native</li>
+              <li>Domain of basic mobile development tools</li>
+              <li>Understanding of REST APIs</li>
+              <li>Experience releasing apps onto the App Store / PlayStore</li>
+            </ul>
+            <a class="open-resume-popup">
+              Apply now
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Remote</span>
+          </div>
+          <h3 class="vacancy-title">Affiliate Manager</h3>
+          <div class="vacancy-description">
+            <p>Responsibilities:</p>
+            <ul>
+              <li>The constant search for new affiliate partners to drive traffic to the project</li>
+              <li>Manage relationships with existing affiliate partners</li>
+              <li>Develop partnerships and scale up profitable deals</li>
+              <li>Keep track of the traffic flow in order to spot possible fraud</li>
+            </ul>
+            <a class="open-resume-popup">
+              Apply now
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="content-item hot">
+          <div class="content-item__number"></div>
+          <div class="additionally">
+            <span>Remote</span>
+          </div>
+          <h3 class="vacancy-title">DevOps</h3>
+          <div class="vacancy-description">
+            <p>Responsibilities:</p>
+            <ul>
+              <li>Design and implement build, deployment, and configuration management</li>
+              <li>Build and test automation tools for infrastructure provisioning</li>
+              <li>Monitor metrics and develop ways to improve</li>
+              <li>Document and design various processes & updates</li>
+              <li>Improve infrastructure development and application development</li>
+            </ul>
+            <a class="open-resume-popup">
+              Apply now
+              <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330" xml:space="preserve">
+                <path id="XMLID_222_" d="M250.606,154.389l-150-149.996c-5.857-5.858-15.355-5.858-21.213,0.001
+                  c-5.857,5.858-5.857,15.355,0.001,21.213l139.393,139.39L79.393,304.394c-5.857,5.858-5.857,15.355,0.001,21.213
+                  C82.322,328.536,86.161,330,90,330s7.678-1.464,10.607-4.394l149.999-150.004c2.814-2.813,4.394-6.628,4.394-10.606
+                  C255,161.018,253.42,157.202,250.606,154.389z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="text-center blocks-margin">If you have not found a suitable vacancy, please contact us.</p>
+      <div class="button-wrapper">
+        <a href="#contact" class="arrow scroll-down">
+          <svg data-bbox="20 59.5 160 81.001" viewBox="0 0 200 200" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape">
+            <g>
+              <path d="M177.687 128.054L105.35 61.402a7.205 7.205 0 0 0-5.35-1.886 7.198 7.198 0 0 0-5.349 1.886l-72.338 66.652a7.165 7.165 0 0 0-.407 10.138 7.172 7.172 0 0 0 5.283 2.309c1.743 0 3.49-.629 4.872-1.902L100 75.999l67.939 62.598a7.197 7.197 0 0 0 10.155-.406 7.163 7.163 0 0 0-.407-10.137z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-6 section-padding" id="contact">
+  <div class="container">
+    <div class="section-title">
+      <h2 class="section-margin"><span class="orange-color">let's work together</span><br /> and make something big</h2>
+    </div>
+    <div class="content">
+      <div class="img-wrapper"></div>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-wrapper half-width">
+            <label for="name">First name</label>
+            <input type="text" id="name" name="name" placeholder="Lucy">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Jefferson">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="email">E-mail adress</label>
+            <input type="email" id="email" name="email" placeholder="exemple@gmail.com">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper half-width">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="Tel-aviv">
+            <span class="error-text">This field is required</span>
+          </div>
+          <div class="input-wrapper">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Type your message here"></textarea>
+            <span class="error-text">This field is required</span>
+          </div>
+          <button type="submit" class="button">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content">
+      <div class="content-item">
+        <div class="logo">
+          <a href="/">
+            <img src="img/logo.png" alt="">
+          </a>
+        </div>
+        <div class="text-wrapper">
+          <p>Multi-skilled company on white-label products.</p>
+          <p>Our offices are located in the heart of the capitals with an inspiring panoramic view.</p>
+        </div>
+      </div>
+      <div class="content-item">
+        <h2>Cities & Offices</h2>
+        <h4>Kyiv</h4>
+        <p>5 minutes walk from Klovskaya metro station</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="scroll-to-top arrow">
+  <svg data-bbox="20 59.5 160 81.001" viewBox="0 0 200 200" height="200" width="200" xmlns="http://www.w3.org/2000/svg" data-type="shape">
+    <g>
+      <path d="M177.687 128.054L105.35 61.402a7.205 7.205 0 0 0-5.35-1.886 7.198 7.198 0 0 0-5.349 1.886l-72.338 66.652a7.165 7.165 0 0 0-.407 10.138 7.172 7.172 0 0 0 5.283 2.309c1.743 0 3.49-.629 4.872-1.902L100 75.999l67.939 62.598a7.197 7.197 0 0 0 10.155-.406 7.163 7.163 0 0 0-.407-10.137z"></path>
+    </g>
+  </svg>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
